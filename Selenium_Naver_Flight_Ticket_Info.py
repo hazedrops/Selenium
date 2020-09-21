@@ -1,3 +1,8 @@
+# Need to have the 'chromedriver.exe' file in the same directory
+# (Or can have the file in the different folder,
+# in that case you need to specify the path when you call the webdriver.Chrome() function)
+
+
 from selenium import webdriver
 # Need to be imported to use the time sleep for the loading period
 from selenium.webdriver.common.by import By
